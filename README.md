@@ -19,5 +19,4 @@ This will launch the following four containers:
 
 You get directed between the static webpage and the flask app depending on if you requested /app or /static.
 
-Disclaimer:
-- The python app used is a sample app.
+Disclaimer: The python app used is a sample app.
