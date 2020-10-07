@@ -15,6 +15,9 @@ This will launch the following four containers:
 - A flask web app running the app.py that records and displays the site visitor count.
 - A redis database for the app to use.
 - A nginx web server to host the static website.
-- A nginx reverse proxy to host the web app.
+- A nginx reverse proxy to direct between the two pages.
 
 You get directed between the static webpage and the flask app depending on if you requested /app or /static.
+
+Disclaimer:
+- The python app used is a sample app.
